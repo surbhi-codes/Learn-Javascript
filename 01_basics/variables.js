@@ -5,21 +5,21 @@
 
 //  account_id/ account_Id/ accountId
 
-const accountId = 129090
-let accountEmail = "surbhi@google.com"
-var accountPassword = "45790"
-accountCity = "Jhansi"
-let accountState;
+const studentId = 129090
+let studentName = "Surbhi"
+var rollNumber = "45790"
+residence = "Jhansi"
+let studentState;
 
-// accountId = 2  not allowed
+// studentId = 2  not allowed
 // JavaScript accepts both double and single quotes
 /*
  Prefer not to use var
  because of issue in block scope & functional scope
 */
-accountEmail = "Subhi@google"
-accountPassword = "293098"
-accountCity = "Delhi"
+studentName = "Surbhi"
+rollNumber = "293098"
+residence = "Delhi"
 
-console.log(accountId);
-console.table([accountEmail, accountId, accountPassword, accountState, accountCity])
+console.log(studentId);
+console.table([studentName, studentId, rollNumber, studentState, residence])
