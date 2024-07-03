@@ -1,4 +1,4 @@
-// 1.Primitive data types
+// 1.Primitive data types:- non-modifiable
     // number => 2 to power 53 ( Integers, floats)
     // bigint
     // String => ""
@@ -7,7 +7,7 @@
     // Undefined => a declared variable without a value
     // Symbol => A unique value
 
-//     2.Non-primitive data types(Object References)
+//     2.Non-primitive data types(Object References):-  modifiable
         //Objects
         //Arrays
 
