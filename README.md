@@ -1,2 +1,2 @@
 # Learn-Javascript
-A  Javascript repo for learning and making projects
+A repo for learning and making projects in Javascript
