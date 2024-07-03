@@ -22,7 +22,7 @@
 
       console.log(Surbhi);
       let name = "Surbhi"
-      let age = 20
+      let phoneNumber = 1234567890
       let isLoggegIn = false
       let state;
 
