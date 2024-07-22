@@ -1,7 +1,7 @@
 // Javascript Variables:- var, let, const
-// var - for browser
-// let - if you can't use const 
-// const- use it where value should not be change
+// var - can be re-declared & updated. A global scope variable
+// let - cannot be re-declared but can be updated. A block scope variable
+// const- cannot be re-declared & updated. A block scope variable
 
 //  account_id/ account_Id/ accountId
 
