@@ -6,7 +6,7 @@
 //  account_id/ account_Id/ accountId
 
 // var keyword- var= 10
-  var a = "Hello Surbhi"
+var a = "Hello Surbhi"
   var b = 3;
   var c = 5;
   var d = b + c;
@@ -45,10 +45,10 @@ let studentState;
 
 // studentId = 2  not allowed
 // JavaScript accepts both double and single quotes
-/*
- Prefer not to use var
- because of issue in block scope & functional scope
-*/
+
+//  Prefer not to use var
+//  because of issue in block scope & functional scope
+
 studentName = "Surbhi"
 rollNumber = "293098"
 residence = "Delhi"
