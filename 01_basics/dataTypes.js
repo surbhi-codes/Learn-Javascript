@@ -1,16 +1,17 @@
-// 1.Primitive data types:- non-modifiable
+// 1.Primitive data types:- simple,non-modifiable, stored by value
     // number => 2 to power 53 ( Integers, floats)
-    // bigint
-    // String => ""
-    // Booleans => true/false
+    // bigint => large int
+    // String => "Hello Surbhi"
+    // Booleans => 'true' /'false'
     // Null => standalone value/empty value or no value
     // Undefined => a declared variable without a value
-    // Symbol => A unique value
+    // Symbol => A unique  & immutable value
 
-//     2.Non-primitive data types(Object References):-  modifiable
+//     2.Non-primitive data types(Object References):- complex, modifiable, stored by reference
         //Objects
         //Arrays
-
+        // Functions
+        
  "use strict"; // treat all JS code as newer version
 
  // alert( 3 + 3) // we are using nodejs, not browser
