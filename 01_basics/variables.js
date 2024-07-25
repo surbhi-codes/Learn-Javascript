@@ -5,6 +5,9 @@
 
 //  account_id/ account_Id/ accountId
 
+// variables- abc or 123 or $ should be 1st charachter
+// name variables using camel casing
+
 // var keyword- var= 10
 var a = "Hello Surbhi"
   var b = 3;
