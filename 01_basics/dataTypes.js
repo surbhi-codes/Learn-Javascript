@@ -8,8 +8,8 @@
     // Symbol => A unique  & immutable value
 
 //     2.Non-primitive data types(Object References):- complex, modifiable, stored by reference
-        //Objects
-        //Arrays
+        //Objects (Collections of key-value pairs)
+        //Arrays (Ordered collections of elements)
         // Functions
         
  "use strict"; // treat all JS code as newer version
