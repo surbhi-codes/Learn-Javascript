@@ -4,6 +4,7 @@ console.log ("Hello World")
 
 /* 
                     -: HISTORY & EVOLUTION :-
+
 # JavaScript and Java are completely different languages, both in concept and design.
 # Javascript [initially (Livescript)] was invented by "Brendan Eich" in 1995 [Mocha]
   1997 - ECMAScript
@@ -15,7 +16,9 @@ console.log ("Hello World")
 # A single <script> tag can’t have both the src attribute and code inside.
 # A script in an external file can be inserted with <script src="path/to/script.js"></script>
 
-                   -: DEFINATION :-
+
+                   -: DEFINATION :-  
+
 # Javascript is a programming language used to make web pages interactive. It can control the behaviour of different elements on a website such as - animations, forms, dynamic content updates.
 # The programs in this language are called scripts
 # Javascript is a Synchronous [executes one command at a time] & single-threaded language.

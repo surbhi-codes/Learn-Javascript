@@ -6,13 +6,20 @@
     // Null => standalone value/empty value or no value
     // Undefined => a declared variable without a value
     // Symbol => A unique  & immutable value
+    
+//  there are so-called “special numeric values” which also belong to this data type: Infinity, -Infinity and NaN.
+
+
+
+
+
 
 //     2.Non-primitive data types(Object References):- complex, modifiable, stored by reference
         //Objects (Collections of key-value pairs)
         //Arrays (Ordered collections of elements)
         // Functions
         
- "use strict"; // treat all JS code as newer version
+ "use strict"; // treat all JS code as newer version / modern way [should always be at top of your script]
 
  // alert( 3 + 3) // we are using nodejs, not browser
     
@@ -27,6 +34,8 @@
       let isLoggegIn = false
       let state;
 
+
+      // The typeof operator allows us to see which type is stored in a variable.
     //   object
      console.log(typeof undefined); // undefined
      console.log(typeof null); // object
