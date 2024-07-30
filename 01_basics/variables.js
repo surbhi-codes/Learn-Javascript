@@ -1,50 +1,88 @@
-// Javascript Variables:- are used to store and manage data
-// Uses for - store, use, change information.
+/*
+# Javascript Variables:- are used to store and manage data
+# Uses for - store, use, change information.
 
-// var - can be re-declared & updated. A global scope variable [old school var]
-// let - cannot be re-declared but can be updated. A block scope variable [modern variable declaration]
-// const- cannot be re-declared & updated. A block scope variable
+ # var - can be re-declared & updated. A global scope variable [old school var]
+ # let - cannot be re-declared but can be updated. A block scope variable [modern variable declaration]
+ # const- cannot be re-declared & updated. A block scope variable
 
-//  account_id/ account_Id/ accountId
+  # account_id/ account_Id/ accountId
 
-// variables- abc or 123 or $, '_' should be 1st charachter
-// name variables using camel casing
-// variables names are case sensitive 'a' & 'A' are different
-// reserved names cannot be variable name: For example: let, class, return, and function are reserved
-// The first character must not be a digit.
+         -: RULES FOR DECLARING VARIABLES :-
 
-// var keyword- var= 10
-var a = "Hello Surbhi"
-  var b = 3;
-  var c = 5;
-  var d = b + c;
+ # variables- abc or 123 or $, '_' should be 1st charachter
+ # name variables using camel casing
+ # variables names are case sensitive 'a' & 'A' are different
+ # reserved names cannot be variable name: For example: let, class, return, and function are reserved
+ # The first character must not be a digit.
 
-  console.log(a);
-  console.log(b);
-  console.log(c);
-  console.log(d);
+*/
 
-// let keyword- 
+// 1. You cannot start with number
+var value2 = 20;
+console.log(value1);
 
- let a = "Hello Surbhi"  // Define the variable and assign the value 
- let b = "learn";
- let c = "21";
- let d = b + c;
+// 2. You can use only underscore _ or dollar symbol $
+var first_name = "Surbhi";
+var _lastname = "Jha";
+console.log(first_name + " " + _lastname);
 
- console.log(a);
-  console.log(b);
-  console.log(c);
-  console.log(d);
+var first$name = "Lily";
+var $lastname = "Singh";
+console.log(first$name + " " + $lastname);
 
-// const keyword-
-const a = "Hello Surbhi"
-console.log(a);
+// Convention 1. Use camelCase writing
+var firstName = "camelCase";
+console.log(firstName);
 
-const b = 365;
-console.log(b);
+// Convention 2. Use snake_case writing
+var first_name = "snake_case";
+console.log(first_name);
 
-const c = "21";
-console.log(c);
+//         -:DECLARE VARIABLE USING VAR:-
+
+// Declare a variable
+var firstName = "surbhi-codes";
+
+// Use a variable
+console.log(firstName);
+
+// Change value
+firstName = "Surbhi Jha";
+console.log(firstName);
+
+/* Expected Output:-
+  surbhi-codes
+  Surbhi Jha
+*/
+
+// -:DECLARE VARIABLE USING LET:-
+// Declare a variable
+  let value = 20;
+
+  // Use a variable:-
+  console.log(value);
+
+// Change value
+value = "21";
+console.log(value);
+   
+/* Expected Output:-
+  20
+  21
+*/
+
+// -:DECLARE VARIABLE USING CONST:-
+// Declare a variable
+const leapYear = 366;
+
+// Use a variable
+console.log(leapYear);
+
+/*
+Expected Output:-
+366
+*/
 
 const studentId = 129090
 let studentName = "Surbhi"
