@@ -24,7 +24,16 @@
      console.log(2 
         +
         2
+        /*
+        In JavaScript, there are 3 types of quotes
+        Double quotes: "Hello".
+        Single quotes: 'Hello'.
+        Backticks: `Hello`.
+        */
+
       ); //  code readability should be high
+
+
 
       let num = 300; // Number
       let price = 30.5;
@@ -67,3 +76,21 @@
     //   object
      console.log(typeof undefined); // undefined
      console.log(typeof null); // object
+
+     typeof undefined // "undefined"
+
+typeof 0 // "number"
+
+typeof 10n // "bigint"
+
+typeof true // "boolean"
+
+typeof "foo" // "string"
+
+typeof Symbol("id") // "symbol"
+
+typeof Math // "object"  (1)
+
+typeof null // "object"  (2)
+
+typeof alert // "function"  (3)

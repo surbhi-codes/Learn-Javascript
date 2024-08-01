@@ -15,8 +15,7 @@
  # variables names are case sensitive 'a' & 'A' are different
  # reserved names cannot be variable name: For example: let, class, return, and function are reserved
  # The first character must not be a digit.
-
-*/
+ */
 
 // 1. You cannot start with number
 var value2 = 20;
