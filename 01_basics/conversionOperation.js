@@ -25,8 +25,19 @@ let stringNumber = String(someNumber)
 console.log(stringNumber);
 console.log(typeof stringNumber);
 
-//  -: OPERATIONS :-
-
+//  -: OPERATIONS :- use to perform  some operation on data
+//  Expressin - a + b  a & b are operands, + is operator
+// Arithmetic Operators:- +, -, *, /,  Modulus, Exponentiation, Increment, Decrement
+// Comparison Operators:- 
+/* Equal to == [vlaue]
+Equal to & type === [data]
+Not equal to !=
+Not equal to & type !==
+Logical Operators:-
+Logical AND &&
+Logical OR  ||
+Logical NOT !
+*/
 let value = 2
 let negValue = -value
 // Console.log(negValue);
