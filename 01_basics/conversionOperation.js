@@ -27,13 +27,50 @@ console.log(typeof stringNumber);
 
 //  -: OPERATIONS :- use to perform  some operation on data
 //  Expressin - a + b  a & b are operands, + is operator
-// Arithmetic Operators:- +, -, *, /,  Modulus, Exponentiation, Increment, Decrement
+
+
+// Arithmetic Operators:- 
+//+, -, *, /,  Modulus, Exponentiation(**), 
+//   let a = 7;
+//   let b = 3;
+   
+//   console.log("a = ", a, " & b = ", b);
+//   console.log("a + b =", a + b);
+//   console.log("a - b =", a - b);
+//   console.log("a * b =", a * b);
+//   console.log("a / b =", a / b);
+//   console.log("a % b =", a % b);
+//   console.log("a ** b =", a ** b);
+
+  // Unary Operator:- [post = a++], [pre = ++a]
+  // Increment(++) [a++ = a+1], Decrement(--) [a-- = a-1]
+
+//   let a = 7;
+//   let b = 3;
+
+//   console.log("a =", a, "& b = ", b);
+//   a = a + 1; or a++;
+//   console.log("a = ", a);
+
+
+//Assignment Operator:-
+// =, +=, -=, %=, **=
+
+// let a = 7;
+//   let b = 3;
+
+a += 2; // a = a +2
+console.log("a =", a); // 
+
+
+
 // Comparison Operators:- 
+
 /* Equal to == [vlaue]
 Equal to & type === [data]
 Not equal to !=
 Not equal to & type !==
-Logical Operators:-
+Logical Operators:-l
 Logical AND &&
 Logical OR  ||
 Logical NOT !
