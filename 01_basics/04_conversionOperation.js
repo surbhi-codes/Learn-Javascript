@@ -75,8 +75,8 @@ console.log(typeof stringNumber);
 
 // COMPARISON OPERATOR :- 
 
-//  Equal to == [vlaue]
-// Equal to & type === [data]
+//  Equal to == (vlaue)
+// Equal to & type === (data)
 // Not equal to !=
 // Not equal to & type !==
 // >, >=, <, <= 
@@ -104,9 +104,9 @@ console.log(typeof stringNumber);
 // console.log("a >= b", a >= b); // true
 
 // LOGICAL OPERATOR :-
-// Logical AND && [cond1 = true, cond2 = true = true] otherwise all false
-// Logical OR  || [cond1 = false, cond2 = false = false] otherwise all true
-// Logical NOT ! [true = false, false = true]
+// Logical AND && (cond1 = true, cond2 = true = true) otherwise all false
+// Logical OR  || (cond1 = false, cond2 = false = false) otherwise all true
+// Logical NOT ! (true = false, false = true)
  
 // let a = 6;
 // let b = 4;
@@ -125,9 +125,9 @@ console.log(typeof stringNumber);
 //  let b = 4;
 //  console.log("cond1 || cond2 = ", a < b || a ===6); // true
 
- let a = 6;
- let b = 4;
- console.log("!(6<4)= ", !(a === 6)); // true -> false
+//  let a = 6;
+//  let b = 4;
+//  console.log("!(6<4)= ", !(a === 6)); // true -> false
 
  
 let value = 2
@@ -146,14 +146,21 @@ let str2 = " Surbhi"
 let str3 = str1 + str2
 console.log(str3);
 
-// console.log("1" + 2 );
-// console.log( 1 + "2" );
-// console.log("1" + 2 + 2);
-// console.log( 1 + 2 + "2");
-// console.log("1" + 2 );
+console.log("1" + 2 ); // 12
+console.log( 1 + "2" ); // 12
+console.log("1" + 2 + 2); // 122
+console.log( 1 + 2 + "2"); // 32
+
 
 //console.log( ( 3 + 4) * 5 % 3 );
 
 // console.log(+true);
 // console.log(+"");
+
+// let num1, num2, num3
+// num1 = num2 = num3 = 2 + 2
+
+let gameCounter = 100
+++gameCounter;
+console.log(gameCounter); // 101
 
