@@ -29,7 +29,7 @@ console.log(typeof stringNumber);
 //  Expressin - a + b  a & b are operands, + is operator
 
 
-// Arithmetic Operators:- 
+// ARITHMETIC OPERATORS :- 
 //+, -, *, /,  Modulus, Exponentiation(**), 
 //   let a = 7;
 //   let b = 3;
@@ -42,7 +42,7 @@ console.log(typeof stringNumber);
 //   console.log("a % b =", a % b);
 //   console.log("a ** b =", a ** b);
 
-  // Unary Operator:- [post = a++], [pre = ++a]
+  // UNARY OPERATORS:- [post = a++], [pre = ++a]
   // Increment(++) [a++ = a+1], Decrement(--) [a-- = a-1]
 
 //   let a = 7;
@@ -53,28 +53,83 @@ console.log(typeof stringNumber);
 //   console.log("a = ", a);
 
 
-//Assignment Operator:-
+// ASSIGNMENT OPERATORS :-
 // =, +=, -=, %=, **=
 
-// let a = 7;
-//   let b = 3;
+//  let a = 7;
+//    let b = 3;
 
-a += 2; // a = a +2
-console.log("a =", a); // 
+// a += 2; // a = a +2
+// console.log("a =", a); // 9
+
+// a -= 2; // a = a -2
+// console.log("a =", a); // 7
+
+// a **= 2; // a = a *2
+// console.log("a =", a); // 49
+
+// a %= 2; // a = a /2
+// console.log("a =", a); // 1
 
 
 
-// Comparison Operators:- 
+// COMPARISON OPERATOR :- 
 
-/* Equal to == [vlaue]
-Equal to & type === [data]
-Not equal to !=
-Not equal to & type !==
-Logical Operators:-l
-Logical AND &&
-Logical OR  ||
-Logical NOT !
-*/
+//  Equal to == [vlaue]
+// Equal to & type === [data]
+// Not equal to !=
+// Not equal to & type !==
+// >, >=, <, <= 
+
+// let a = 5; 
+// let b = 3; 
+
+// console.log("a == b", a == b);// flase
+// console.log("a !== b", a !== b);// true
+
+// let a = 5; // number
+// let b = "5"; // string -> number
+
+// console.log("a == b", a ==b); // true
+
+// let a = 3;
+// let b = 8;
+
+// console.log("a < b", a < b); // true
+// console.log("a > b", a > b); // false
+
+// let a = 8;
+// let b = 8;
+// console.log("a <= b", a <= b); // true
+// console.log("a >= b", a >= b); // true
+
+// LOGICAL OPERATOR :-
+// Logical AND && [cond1 = true, cond2 = true = true] otherwise all false
+// Logical OR  || [cond1 = false, cond2 = false = false] otherwise all true
+// Logical NOT ! [true = false, false = true]
+ 
+// let a = 6;
+// let b = 4;
+
+// let cond1 = a < b;// false
+// let cond2 = a === 6; // true
+// console.log("cond1 && cond2 = ", cond1 && cond2); // false
+ 
+// or we can write like this too
+//  let a = 6;
+//  let b = 4;
+//  console.log("cond1 && cond2 = ", a < b && a ===6); //false
+
+
+//  let a = 6;
+//  let b = 4;
+//  console.log("cond1 || cond2 = ", a < b || a ===6); // true
+
+ let a = 6;
+ let b = 4;
+ console.log("!(6<4)= ", !(a === 6)); // true -> false
+
+ 
 let value = 2
 let negValue = -value
 // Console.log(negValue);
