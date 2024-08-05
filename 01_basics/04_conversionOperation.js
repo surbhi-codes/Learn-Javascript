@@ -16,7 +16,7 @@
 // console.log(booleanIsLoggedIn);
 
 // 1=> true; 0=> false
-// ""=> false
+// "", NaN, null, undefined => false
 // "surbhi"=> true
 
 let someNumber = 33
@@ -30,7 +30,7 @@ console.log(typeof stringNumber);
 
 
 // ARITHMETIC OPERATORS :- 
-//+, -, *, /,  Modulus, Exponentiation(**), 
+//+, -, *, /,  Modulus (%), Exponentiation(**), 
 //   let a = 7;
 //   let b = 3;
    
@@ -53,7 +53,7 @@ console.log(typeof stringNumber);
 //   console.log("a = ", a);
 
 
-// ASSIGNMENT OPERATORS :-
+// ASSIGNMENT OPERATORS :- = returns a value
 // =, +=, -=, %=, **=
 
 //  let a = 7;
