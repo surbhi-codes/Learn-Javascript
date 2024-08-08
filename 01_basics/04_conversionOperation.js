@@ -130,7 +130,7 @@ console.log(typeof stringNumber);
 //  console.log("!(6<4)= ", !(a === 6)); // true -> false
 
  
-let value = 2
+let value = 3
 let negValue = -value
 // Console.log(negValue);
 
