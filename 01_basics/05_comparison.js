@@ -25,5 +25,5 @@ console.log("2" === 2);
 
 // comparison operators return a boolean value
 // Strings are compared letter-by-letter in the “dictionary” order
-// When values of different types are compared, they get converted to numbers
+// When values of different types are compared, they get converted to numbers.
 
