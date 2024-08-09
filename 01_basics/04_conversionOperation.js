@@ -73,7 +73,7 @@ console.log(typeof stringNumber);
 
 
 
-// COMPARISON OPERATOR :- 
+// COMPARISON OPERATOR:- 
 
 //  Equal to == (vlaue)
 // Equal to & type === (data)
