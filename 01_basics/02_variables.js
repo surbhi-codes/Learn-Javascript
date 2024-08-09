@@ -1,6 +1,6 @@
 /*
 # Javascript Variables:- are used to store and manage data
-# Uses for - store, use, change information.
+# Uses for - store, use, change information
 
  # var - can be re-declared & updated. A global scope variable [old school var]
  # let - cannot be re-declared but can be updated. A block scope variable [modern variable declaration]
@@ -14,7 +14,7 @@
  # name variables using camel casing
  # variables names are case sensitive 'a' & 'A' are different
  # reserved names cannot be variable name: For example: let, class, return, and function are reserved
- # The first character must not be a digit.
+ # The first character must not be a digit
  */
 
 // 1. You cannot start with number
