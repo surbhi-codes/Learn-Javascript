@@ -29,8 +29,7 @@ console.log ("Hello World")
   JavaScript (Provides the Interactivity)(make web pages alive) [Brain/Muscles]
 
 # JAVASCRIPT UNIQUENESS-
-1. Ful
-l integration with HTML/ CSS
+1. Full integration with HTML/ CSS
 2. Simple things are done simply
 3. Supported by all major browser
 
