@@ -1,7 +1,7 @@
 /*                          -: DATATYPES :-
   Data types specify the kind of data that can be stored and manipulated within a program     
 */
-// 1.Primitive data types:- simple,non-modifiable, stored by value
+// 1.Primitive data types:- simple, non-modifiable, stored by value
     // number => 2 to power 53 ( Integers, floats)
     // bigint => large int
     // String => "Hello Surbhi"
