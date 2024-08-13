@@ -14,9 +14,14 @@ const myHeors = ["Ironman", "Spiderman"]
 const myArr2 = new Array(1, 2,3, 4)
 // console.log(myArr[1]); // 1
 
-// ARRAY METHODS:-
 
-myArr.push(6) // add new elements to the array
+// ARRAY METHODS:-
+//  Push( ) : add to end
+//  Pop( ) : delete from end & return
+// toString( ) : converts array to string
+
+
+myArr.push(6) // add new elements to the array 
 myArr.push(7) // Output- [0, 1, 2, 3, 4, 5, 6, 7]
 myArr.pop() // removes the last element
 // console.log(myArr);
@@ -37,8 +42,13 @@ const newArray = myArr.join() // add array to string
 // difference between slice and splice:-
 // SLICE- 1. does not modify the original array
 //        2. returns a new array
-// SPLICE- 1. modifies the originial array
+//        3. ex-  slice( startIdx, endIdx )
+
+// SPLICE- 1. modifies the originial array (add, remove, replace)
 //         2. returns the removed elements as a new array
+//         3. splice( startIdx, delCount, newEl1... )
+
+
 
 console.log("A ", myArr);
 

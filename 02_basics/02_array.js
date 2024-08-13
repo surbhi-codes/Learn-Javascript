@@ -1,6 +1,11 @@
 //push(): Modifies the original array by adding elements to it.
 // concat(): Creates a new array by combining elements without modifying the original array.
 
+// Concat( ) : joins multiple arrays & returns result
+// Unshift( ) : add to start
+// shift( ) : delete from start & return
+
+
 const marvel_heros = ["Ironman", "Spiderman", "Thor"]
 const dc_heros = ["Superman", "flash", "batman"]
 
