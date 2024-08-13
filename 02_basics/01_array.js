@@ -23,4 +23,30 @@ myArr.pop() // removes the last element
 
 // myArr.unshift(30) // [ 30, 0, 1, 2,3,5,6]
 // myArr.shift()
-console.log(myArr);
+
+
+// console.log(myArr.includes(10)); // false
+// console.log(myArr.indexOf(10)); // -1
+// console.log(myArr.indexOf(2)); // 2
+
+const newArray = myArr.join() // add array to string
+
+// console.log(myArr);
+// console.log(typeof newArray); // string
+
+// difference between slice and splice:-
+// SLICE- 1. does not modify the original array
+//        2. returns a new array
+// SPLICE- 1. modifies the originial array
+//         2. returns the removed elements as a new array
+
+console.log("A ", myArr);
+
+const myn1 = myArr.slice(1, 3)
+console.log(myn1);
+console.log("B ", myArr);
+
+const myn2 = myArr.splice(1, 3)
+console.log("C ", myArr);
+console.log(myn2);
+
