@@ -16,9 +16,17 @@ const myArr2 = new Array(1, 2,3, 4)
 
 
 // ARRAY METHODS:-
-//  Push( ) : add to end
-//  Pop( ) : delete from end & return
+//  push( ) : add to end
+let vegetables = ["Tomato","Pea", "Potato", "Radish", "Carrot"]; // [ 'Tomato', 'Pea', 'Potato', 'Radish', 'Carrot' ]
+ vegetables.push("Spinach", "Brinjal");  // ['Tomato',  'Pea','Potato',  'Radish','Carrot',  'Spinach','Brinjal']
+
+ console.log(vegetables);
+
+//  pop( ) : delete from end & return
 // toString( ) : converts array to string
+// concat( ) : joins multiple arrays & returns result
+// unshift( ) : add to start
+// shift( ) : delete from start & return
 
 
 myArr.push(6) // add new elements to the array 
@@ -60,3 +68,16 @@ const myn2 = myArr.splice(1, 3)
 console.log("C ", myArr);
 console.log(myn2);
 
+
+// LOOPING OVER AN ARRAY-
+  let chocolates = ["Cadbury Dairy Milk", "Kitkat", "5 Star", "Hide & Seek", "Eclairs", "Milky Way", "Amul Wafer Chocolates"]
+
+  for (let i = 0; i<chocolates.length; i++){
+    console.log(chocolates[i]);
+  }
+
+
+  let countries = ["india", "china", "japan", "netherlands", "america", "germany"];
+  for (let country of countries){
+    console.log(country.toUpperCase()); // INDIA, CHINA, JAPAN, NETHERLANDS,  AMERICA, GERMANY
+  }
