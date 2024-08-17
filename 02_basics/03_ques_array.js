@@ -31,8 +31,8 @@ console.log(`average marks of the class = ${average}`); // average marks of the 
  // c. Add Amazon at the end
 
  let companies = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"];
- companies.shift() // [ 'Microsoft', 'Uber', 'Google', 'IBM', 'Netflix' ]
- companies.splice(2, 1, "Ola"); // [ 'Microsoft', 'Uber', 'Ola', 'IBM', 'Netflix' ]
- companies.push("Amazon"); // [ 'Microsoft', 'Uber', 'Ola', 'IBM', 'Netflix', 'Amazon' ]
+ companies.shift()    // [ 'Microsoft', 'Uber', 'Google', 'IBM', 'Netflix' ]
+ companies.splice(2, 1, "Ola");    // [ 'Microsoft', 'Uber', 'Ola', 'IBM', 'Netflix' ]
+ companies.push("Amazon");     // [ 'Microsoft', 'Uber', 'Ola', 'IBM', 'Netflix', 'Amazon' ]
  console.log(companies);
  
