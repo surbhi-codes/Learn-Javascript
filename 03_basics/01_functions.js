@@ -8,7 +8,8 @@ function sayMyName(){
    console.log("H");
    console.log("I");
 }
-  sayMyName()
+  // sayMyName()
+
 /*S
   U
   R
@@ -16,22 +17,38 @@ function sayMyName(){
   H
   I */
 
-  function addTwoNumbers(number1, number2) // (number1, number2)- 
-  {
-      console.log(number1 + number2);   
-  }
-  // handleObject(user)
-handleObject({
-    username: "sam",
-    price: 399
-})
+  // (number1, number2)- Parameters [Parameters are placeholders in a function]
+  // (4, 6 are arguments) [arguments are the actual values you give to those placeholders when calling the function]
 
-const myNewArray = [200, 400, 100, 600]
+//   function addTwoNumbers(number1, number2){
+//       console.log(number1 + number2);   
+//   }
+ 
+//   addTwoNumbers() // NaN
+//   addTwoNumbers(4,6) // 10 
+//   addTwoNumbers(4, "6") // 46
+//   addTwoNumbers(4, "d") // 4d
+//   addTwoNumbers(4, null) // 4
 
-function returnSecondValue(getArray){
-    return getArray[1]
+function addTwoNumbers(number1, number2){
+    //  let result = number1 + number2
+    //  return result
+     return number1 + number2
 }
 
-// console.log(returnSecondValue(myNewArray));
-console.log(returnSecondValue([200, 400, 500, 1000]));
-  addTwoNumbers()
+const result = addTwoNumbers(5,4)
+
+console.log("Result:", result); // 9
+
+function loginUserMessage(username = "Lily"){
+    if(!username){
+        console.log("Please enter a username");
+        return
+    }
+    return `${username} just logged in`
+}
+
+console.log(loginUserMessage("Surbhi")); // Surbhi just logged in
+
+
+
