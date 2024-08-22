@@ -93,6 +93,6 @@ function returnSecondValue(getArray){
     return getArray[1]
 }
 
-console.log(returnSecondValue(myNewArray));
-console.log(returnSecondValue([200, 800, 500, 300]));
+//console.log(returnSecondValue(myNewArray)); // 800
+console.log(returnSecondValue([200, 800, 500, 300])); // 800
 
