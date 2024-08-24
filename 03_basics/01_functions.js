@@ -1,5 +1,16 @@
 // FUNCTIONS IN JS:- Block of code designed to perform a specific task. You can define a function once and then call (or use) it whenever you need to execute that task. Functions can take inputs (called parameters) and can return an output.
 
+// functions parameter- like local variables of function - block scope  
+// Functions Definition-
+//  (Keyword)
+// 1. function functionName() {     and    2. function functionName(param1, param2....){
+     // do some work                            // do some work
+//   }                                          }
+
+// Function Call-
+// functionName();
+
+
 function sayMyName(){
    console.log("S");
    console.log("U");
@@ -20,7 +31,7 @@ function sayMyName(){
   // (number1, number2)- Parameters [Parameters are placeholders in a function]
   // (4, 6 are arguments) [arguments are the actual values you give to those placeholders when calling the function]
 
-//   function addTwoNumbers(number1, number2){
+//  1. function addTwoNumbers(number1, number2){
 //       console.log(number1 + number2);   
 //   }
  
@@ -30,15 +41,15 @@ function sayMyName(){
 //   addTwoNumbers(4, "d") // 4d
 //   addTwoNumbers(4, null) // 4
 
-function addTwoNumbers(number1, number2){
-    //  let result = number1 + number2
-    //  return result
-     return number1 + number2
+ function addTwoNumbers(number1, number2){
+     let result = number1 + number2
+      return result
+     // return number1 + number2  [after return code will not execute]
 }
 
 const result = addTwoNumbers(5,4)
-
 console.log("Result:", result); // 9
+
 
 function loginUserMessage(username = "Lily"){
     if(!username){
@@ -95,4 +106,17 @@ function returnSecondValue(getArray){
 
 //console.log(returnSecondValue(myNewArray)); // 800
 console.log(returnSecondValue([200, 800, 500, 300])); // 800
+
+
+
+// ARROW FUNCTIONS [ => ]
+// Compact way of writing a function
+
+// const functionName = (param1, param2...)=> {
+//      // do some work
+//  }
+
+const sum = (a, b) => {
+    return a + b;
+}
 
