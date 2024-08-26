@@ -1,3 +1,9 @@
+
+// Arrow Functions :- Compact way of writing a functio
+// const functionName = ( param1, param2 ...) => {
+    //do some work }   
+
+
 const user = {
     username: "surbhi",
     price: 9999,
