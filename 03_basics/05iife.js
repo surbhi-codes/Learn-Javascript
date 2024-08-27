@@ -31,6 +31,8 @@ const temperature = 41
 // } else if (balance < 750) {
 //     console.log("less than 750");
     
+
+
 // } else if (balance < 900) {
 //     console.log("less than 750");
     
