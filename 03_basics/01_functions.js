@@ -109,14 +109,5 @@ console.log(returnSecondValue([200, 800, 500, 300])); // 800
 
 
 
-// ARROW FUNCTIONS [ => ]
-// Compact way of writing a function
 
-// const functionName = (param1, param2...)=> {
-//      // do some work
-//  }
-
-const sum = (a, b) => {
-    return a + b;
-}
 
