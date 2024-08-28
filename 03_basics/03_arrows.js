@@ -1,44 +1,63 @@
+// ARROW FUNCTIONS [ => ]  [ () => {} ]
+//  Compact way of writing a function
 
-// Arrow Functions :- Compact way of writing a functio
 // const functionName = ( param1, param2 ...) => {
     //do some work }   
 
+
+
+const sum = (a, b) => {
+    return a + b;
+}
 
 const user = {
     username: "surbhi",
     price: 9999,
 
     welcomeMessage: function() {
-        console.log(`${this.username} , welcome to website`);
-        console.log(this);
+       console.log(`${this.username} , welcome to website`);
+       console.log(this);
     }
 
 }
 
 // user.welcomeMessage()
- user.username = "Tara"
- user.welcomeMessage() // Tara , welcome to website
+//  user.username = "Tara"
+//  user.welcomeMessage() // Tara , welcome to website
 
- console.log(this); // {}
+ //console.log(this); // {}
 
-
-
- // chai()
-
-// const addTwo = (num1, num2) => {
-//     return num1 + num2
+// function coffee(){
+//     let username = "Surbhi"
+//     console.log(this.username);   // undefined
 // }
 
-// const addTwo = (num1, num2) =>  num1 + num2
+//  coffee()
 
-// const addTwo = (num1, num2) => ( num1 + num2 )
+// const coffee = function() {
+//     let username = "Surbhi"
+//     console.log(this.username);
+// }
 
-const addTwo = (num1, num2) => ({username: "hitesh"})
+const coffee = () => {
+    let username = "surbhi"
+    console.log(this); // undefined
+}
 
+coffee()
 
-console.log(addTwo(3, 4))
+// const addTwo = (num1, num2) => {
+//  return num1 + num2
+// }
 
+// const addTwo = (num1, num2) => num1 + num2 //  implicit return 
 
-// const myArray = [2, 5, 3, 7, 8]
+// const addTwo = (num1, num2) => ( num1 + num2)
+
+ const addTwo = (num1, num2) => ({username: "surbhi"}) // { username: 'surbhi' }
+
+ console.log(addTwo(5,6));
+
+// const myArray = [3,4, 5, 6]
 
 // myArray.forEach()
