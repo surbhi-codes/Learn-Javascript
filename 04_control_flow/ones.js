@@ -1,52 +1,68 @@
-// if
-const isUserloggedIn = true
-const temperature = 41
+// if - Executes code if a specified condition is true.
 
-// if ( temperature === 40 ){
-//     console.log("less than 50");
-// } else {
-//     console.log("temperature is greater than 50");
-// }
+const temperature = 30
+
+if ( temperature > 25 ){
+    console.log("It's a warm day.");    
+}
+
+// if-else Statement- Executes one block of code if a condition is true, otherwise executes another block if the condition is false
+
+const age = 18
+
+if ( age >= 18) {
+    console.log("You are an adult"); 
+} else {
+    console.log("You are not an adult");
+}
 
 // console.log("Execute");
 // <, >, <=, >=, ==, !=, ===, !==
 
-// const score = 200
+const score = 500
 
-// if (score > 100) {
-//     let power = "fly"
-//     console.log(`User power: ${power}`);
-// }
+if ( score > 250 ) {
+    let result = "pass"
+    console.log(`User result: ${result}`); // User result: pass
+}
 
-// console.log(`User power: ${power}`);
+ // console.log(`User result: ${result}`);   result is not defined
 
 
-// const balance = 1000
+ const balance = 1000
 
-// if (balance > 500) console.log("test"),console.log("test2");
+ if (balance > 500) console.log("test"); // test
+ 
+ // if (balance > 500) console.log("test"),console.log("test2"); -> This is wrong method to write code
 
-// if (balance < 500) {
-//     console.log("less than 500");
-// } else if (balance < 750) {
-//     console.log("less than 750");
-    
-// } else if (balance < 900) {
-//     console.log("less than 750");
-    
-// } else {
-//     console.log("less than 1200");
 
-// }
+ if (balance < 500) {
+    console.log("less than 500");
+ } 
+ else if (balance < 700) {
+    console.log("less than 700");
+ }
+ else if (balance < 800) {
+    console.log("less than 800");
+ }
+ else {
+    console.log("less than 1200"); // less than 1200
+ }
 
-const userLoggedIn = true
-const debitCard = true
-const loggedInFromGoogle = false
-const loggedInFromEmail = true
 
-if (userLoggedIn && debitCard && 2==3) {
+ const userLoggedIn = true
+ const debitCard = true
+ const loggedInFromGoogle = false
+ const loggedInFromEmail = true
+
+ if (userLoggedIn && debitCard && 2==2) {
+    console.log("Allow to buy course"); // Allow to buy course
+ }
+
+ if (userLoggedIn && debitCard && 2==3) {
     console.log("Allow to buy course");
-}
+ }
 
-if (loggedInFromGoogle || loggedInFromEmail) {
-    console.log("User logged in");
-}
+ if (loggedInFromGoogle || loggedInFromEmail){
+    console.log("User logged in"); // User logged in
+ }
