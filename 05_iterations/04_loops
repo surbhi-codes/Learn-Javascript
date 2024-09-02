@@ -28,7 +28,7 @@ map.set('USA', "United States of America")
 map.set('Fr', "France")
 map.set('IN', "India")
 
-// The for...in loop is not suitable for iterating over a Map in JavaScript.
+// The for...in loop is not suitable for iterating over a Map in JavaScript. Typically used for plain objects
 
 // for (const key in map) {
 //     console.log(key); 
