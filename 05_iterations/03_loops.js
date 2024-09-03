@@ -1,4 +1,6 @@
 // LOOP =  for of - Iterates over iterable objects like arrays, strings, etc. It gives you the values.
+// for (const value of array) { }
+
 
 // ["", "", ""]
 // [{}, {}, {}]
