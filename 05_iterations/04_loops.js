@@ -1,4 +1,7 @@
-// LOOPS - for..in
+// LOOPS - for..in =  Iterates over enumerable properties of an object, giving you the keys.
+// for (const key in object) { }
+
+
 const myObject = {
     js: 'javascript',
     cpp: 'C++',
