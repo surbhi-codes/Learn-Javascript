@@ -1,3 +1,8 @@
+// String concatenation is the process of joining two or more strings together to form a single string
+// In JS string concatenation can be done using the '+' operator
+// "a" "+" "+" "b" becomes "ab" concatenated into a single string
+
+
 const name = "surbhi"
 const repoCount = 50
 
