@@ -3,12 +3,12 @@
 // "a" "+" "+" "b" becomes "ab" concatenated into a single string
 
 
-const name = "surbhi"
+//const name = "surbhi"
 const repoCount = 50
 
 // console.log(name + repoCount + "Value"); Outdated syntax
 
-console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
+// console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
 const gameName = new String(`surbhi-sh-com`)
 
@@ -37,3 +37,6 @@ console.log(url.replace('%20', '-')); // https://surbhi.com/surbhi-jha
 
 console.log(url.includes('sundar')); // false
 console.log(gameName.split('-')); // [ 'surbhi', 'sh', 'com' ]
+
+
+
