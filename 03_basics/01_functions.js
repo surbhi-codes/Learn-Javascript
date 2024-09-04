@@ -1,5 +1,7 @@
 // FUNCTIONS IN JS:- Block of code designed to perform a specific task. You can define a function once and then call (or use) it whenever you need to execute that task. Functions can take inputs (called parameters) and can return an output.
 
+//  creating a function is about defining it, while calling a function is about using it to perform its task.
+
 // functions parameter- like local variables of function - block scope  
 // Functions Definition-
 //  (Keyword)
