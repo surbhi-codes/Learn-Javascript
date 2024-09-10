@@ -24,4 +24,25 @@ var bmi = bmiCalculator(65, 1.8);  // Example: 65kg weight, 1.8m height
 console.log("Your BMI is: " + bmi); // Your BMI is: 20
 
 
+// 3. Love Calculator-
+
+// Simple Love Calculator with name input
+
+const readline = require('readline').createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+readline.question('Enter your name: ', (yourName) => {
+    readline.question('Enter their name: ', (theirName) => {
+        var loveScore = Math.random() * 100;
+        loveScore = Math.floor(loveScore) + 1;  // 1 to 100
+        
+        console.log(`${yourName} and ${theirName}'s love score is ${loveScore}%`);
+        readline.close();
+    });
+});
+
+
+
 
