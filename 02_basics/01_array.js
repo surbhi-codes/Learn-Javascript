@@ -81,3 +81,6 @@ console.log(myn2);
   for (let country of countries){
     console.log(country.toUpperCase()); // INDIA, CHINA, JAPAN, NETHERLANDS,  AMERICA, GERMANY
   }
+
+
+  
