@@ -110,6 +110,5 @@ function returnSecondValue(getArray){
 console.log(returnSecondValue([200, 800, 500, 300])); // 800
 
 
-
-
-
+// Math.random() is a function that returns a floating-point number between 0 (inclusive) and 1
+//  a built-in JavaScript object that has properties and methods for mathematical constants and functions.
