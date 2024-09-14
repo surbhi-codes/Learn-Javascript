@@ -1,4 +1,8 @@
-// for
+// For Loops-
+//      start  end  change
+// for ( i =0; i<2; i++ ){    ITERATE
+//          do something
+// }
 
 for (let i = 0; i <= 10; i++) {
     const element = i;
