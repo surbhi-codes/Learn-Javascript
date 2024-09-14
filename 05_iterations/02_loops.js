@@ -1,3 +1,9 @@
+// while (something is true) {     STATE
+//     do something
+// }
+
+
+
 let index = 0
 
 while (index <= 10) {
