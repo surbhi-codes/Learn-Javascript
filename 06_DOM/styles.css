@@ -1,5 +1,9 @@
-.huge {
+h1 {
   font-size: 10rem;
   color: purple;
   font-weight: bold;
+}
+
+body{
+  background-color: aqua;
 }
