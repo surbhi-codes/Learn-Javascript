@@ -1,1 +1,3 @@
-document.query
+console.dir(document.body);
+console.log(document.body);
+
