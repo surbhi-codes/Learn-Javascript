@@ -1,9 +1,18 @@
-h1 {
-  font-size: 10rem;
-  color: purple;
-  font-weight: bold;
+
+body {
+  background-color: rgb(100, 243, 196);
 }
 
-body{
-  background-color: aqua;
+h2 {
+   font-style: italic;
+}
+
+#box {
+ height: 250px;
+ width: 100px;
+ border: 1px solid black;
+ margin: 5px;
+ text-align: center;
+ background-color: rgb(239, 95, 22);
+color: beige;
 }

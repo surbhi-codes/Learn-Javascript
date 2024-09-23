@@ -26,7 +26,6 @@ console.log("Your BMI is: " + bmi); // Your BMI is: 20
 
 // 3. Love Calculator-
 
-// Simple Love Calculator with name input
 
 const readline = require('readline').createInterface({
     input: process.stdin,
@@ -38,30 +37,9 @@ readline.question('Enter your name: ', (yourName) => {
         var loveScore = Math.random() * 100;
         loveScore = Math.floor(loveScore) + 1;  // 1 to 100
         
-        console.log(`${yourName} and ${theirName}'s love score is ${loveScore}%`);
+      console.log(`${yourName} and ${theirName}'s love score is ${loveScore}%`);
         readline.close();
     });
 });
 
-
-// 4. Leap Year Challange-
-
-function isLeap(year){
-    if (year % 4 === 0){
-        if (year % 100 === 0){
-            if (year % 400 === 0){
-                return "Leap Year.";
-            } else {
-                return "Not Leap Year";
-            }
-        } else {
-            return "Not Leap Year";
-        }
-    } else {
-        return "Not Leap Year";
-    }
-    
-}
-
-isLeap(year);
-
+ 

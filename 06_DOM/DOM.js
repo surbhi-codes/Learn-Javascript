@@ -38,10 +38,13 @@
 //  element.attribute : new value	Change the attribute value of an HTML element
 //  element.style.property : new style	Change the style of an HTML element
  
- 
+
+
+// Finding HTML Elements:-
+
 // 1. document: Refers to the DOM itself.
 // Example: document.getElementById("id")
-
+    
 // 2. element.childNodes: Gives a list of child nodes.
 
 // 3. element.innerHTML: Accesses or changes the HTML inside an element.
@@ -77,3 +80,32 @@
 // element.addEventListener("click", myFunction);
 
 // element.setAttribute(attribute, value)	Change the attribute value of an HTML element
+//for style-
+// node.style
+
+
+
+// Insert Elements:-   let el = document.createElement("div")
+
+// 1. node.append( el ) //adds at the end of node (inside)
+// 2. node.prepend( el ) //adds at the start of node (inside)
+// 3. node.before( el ) //adds before the node (outside)
+// 4. node.after( el ) //adds after the node (outside)
+
+// Delete Element:-
+// node.remove( ) //removes the node
+
+
+
+// Creating Elements: Use createElement() to create new HTML elements.
+// let newDiv = document.createElement("div");
+
+// Appending Elements: Use appendChild() to add a new element
+// document.body.appendChild(newDiv);
+
+// Removing Elements: Use removeChild() to remove an element
+// element.removeChild(child);
+
+// document.replaceChild(new, old)	Replace an HTML element
+
+// document.write(text)	Write into the HTML output stream
