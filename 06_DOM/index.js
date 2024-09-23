@@ -1,5 +1,7 @@
 // Qs Create a H2 heading element with text - “Hello JavaScript”. Append “from Apna College students” to this text using JS.
 
+const { title } = require("process");
+
 //sol:-
 // let h2 = document.querySelector("h2");
 
@@ -74,3 +76,6 @@ newBtn.style.color = "white";
 newBtn.style.backgroundColor = "red";
 
 document.querySelector("body").prepend(newBtn);
+
+// title.textContent();
+
