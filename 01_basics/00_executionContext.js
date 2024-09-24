@@ -5,10 +5,18 @@
 // Types of execution contexts:-
 
 // Global Execution Context:-
-// Created when the JavaScript code starts executing, it handles the code that is not inside any function. It creates the global object (window in browsers) and the this keyword refers to this global object
+// 1. Created when the JavaScript code first starts executing.
+// 2. It is the default context and covers code that is not inside any function.
+// 3. Has access to global variables and objects (e.g., window in browsers).
+// 4. There is only one global execution context throughout the execution of the program.
+
 
 // Function Execution Context:-
-//Created when the JavaScript code starts executing, it handles the code that is not inside any function. It creates the global object (window in browsers) and the this keyword refers to this global object-Variable Object, Scope Chain, 'this' keyword
+// 1. Created whenever a function is invoked.
+// 2. Each function call gets its own unique execution context.
+// 3. Has access to the function's local variables, arguments, and any variables in the outer scope (due to closures).
+// 4. Once the function finishes execution, the function execution context is destroyed.
+
 
 // Eval Execution Context
 
