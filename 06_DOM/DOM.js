@@ -69,7 +69,7 @@
 
 // document.querySelector(“#myId / .myClass / tag”)
 //  //returns first element
-
+    
 //  2. Selects all elements matching a CSS selector.
 
 // document.querySelectorAll(“#myId / .myClass / tag”)
