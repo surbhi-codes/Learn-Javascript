@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(107, 93, 209);
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.dice {
+    text-align: center;
+    display: inline-block;
+
+}
+
+
+h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px, #232931;
+    font-size: 8rem;
+    color: rgb(156, 14, 149);
+}
+
+p {
+    font-size: 2rem;
+    color: rgb(171, 198, 36);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    width: 80%;
+}
+
+footer {
+    margin-top: 5%;
+    color: rgb(167, 51, 150);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
