@@ -80,6 +80,7 @@
 // element.addEventListener("click", myFunction);
 
 // element.setAttribute(attribute, value)	Change the attribute value of an HTML element
+
 //for style-
 // node.style
 
