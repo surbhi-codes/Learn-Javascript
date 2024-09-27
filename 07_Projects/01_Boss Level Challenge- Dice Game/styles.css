@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(107, 93, 209);
+    background-color: rgb(221, 205, 62);
 }
 
 .container {
@@ -17,25 +17,61 @@ body {
 
 h1 {
     margin: 30px;
-    font-family: 'Lobster', cursive;
-    text-shadow: 5px, #232931;
+    font-family:  'Lobster', cursive;
+    text-shadow: 5px 0 #213652;
     font-size: 8rem;
-    color: rgb(156, 14, 149);
+    color: rgb(102, 177, 21);
 }
 
 p {
     font-size: 2rem;
-    color: rgb(171, 198, 36);
-    font-family: 'Courier New', Courier, monospace;
-}
-
-img {
+    color: #0d0d6a;
+    font-family: 'Indie Flower', cursive;
+  }
+  
+  img {
     width: 80%;
-}
+  }
+
+  #message {
+    margin: 10px 30px;
+    font-family: "Pacifico", cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 7 rem;
+    color: azure;
+  }
+
+  .roll {
+    -webkit-border-radius: 30;
+  -moz-border-radius: 30;
+  border-radius: 30px;
+  font-family: "Pacifico", cursive;
+  color: #ffffff;
+  border: none;
+  font-size: 20px;
+  background: #9c060c;
+  padding: 10px 15px 10px 15px;
+  text-decoration: none
+  }
+
+  .roll:hover {
+    background: #ff0000;
+    text-decoration: none;
+  }
 
 footer {
     margin-top: 5%;
-    color: rgb(167, 51, 150);
+    color: rgb(45, 30, 130);
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:"Pacifico", cursive ;
 }
+
+.foot {
+    text-decoration: none;
+    color: #eeeeee;
+  }
+  
+  .foot:hover span {
+    text-decoration: underline;
+  }
+  
