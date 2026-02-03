@@ -42,6 +42,15 @@ console.log(typeof stringNumber);
 //   console.log("a % b =", a % b);
 //   console.log("a ** b =", a ** b);
 
+ let students = 30;
+
+ students = students / 2;
+ students = students ** 2;
+
+ let extraStudents = students % 2;
+
+ console.log(students);
+
   // UNARY OPERATORS:- [post = a++], [pre = ++a]
   // Increment(++) [a++ = a+1], Decrement(--) [a-- = a-1]
 
@@ -59,6 +68,8 @@ console.log(typeof stringNumber);
 //  let a = 7;
 //    let b = 3;
 
+// Augmented assignment operators
+
 // a += 2; // a = a +2
 // console.log("a =", a); // 9
 
@@ -71,7 +82,15 @@ console.log(typeof stringNumber);
 // a %= 2; // a = a /2
 // console.log("a =", a); // 1
 
+/* Operator Precedence
+1. parenthesis ()
+2. exponents
+3. multiplication & divide & modulo
+4. addition & subtraction
+*/
 
+let result = 1 + 2 * 3 + 4 ** 2;
+console.log(result);
 
 // COMPARISON OPERATOR:- 
 
@@ -164,3 +183,28 @@ let gameCounter = 100
 ++gameCounter;
 console.log(gameCounter); // 101
 
+// type conversion = change the datatype of a value to another (strings, numbers, boolean)
+
+let age = window.prompt("What's your age");
+age = Number(age);
+
+age+=1;
+console.log(age);
+
+let x = momos;
+let y = momos;
+let z = momos;
+
+x = Number(x);
+y = String(y);
+z = Boolean(z);
+
+console.log(x, typeof x);
+console.log(y, typeof y);
+console.log(z, typeof z);
+
+/* output-
+NaN 'number'
+momos string
+true 'boolean'
+*/

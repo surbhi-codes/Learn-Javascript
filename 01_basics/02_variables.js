@@ -1,5 +1,6 @@
 /*
 # Javascript Variables:- are used to store and manage data
+A container that stores a value
 # Uses for - store, use, change information
 
  # var - can be re-declared & updated. A global scope variable [old school var]
@@ -16,6 +17,17 @@
  # reserved names cannot be variable name: For example: let, class, return, and function are reserved
  # The first character must not be a digit
  */
+
+ alert(`This is an alert`);
+
+
+ let yourName = "Riya";
+ let age = 20;
+
+ console.log(`Your name is ${yourName}`);
+ console.log(`You are ${age} years old`); 
+
+ console.log(typeof age);
 
 // 1. You cannot start with number
 var value2 = 20;
@@ -86,7 +98,7 @@ Expected Output:-
 const studentId = 129090
 let studentName = "Surbhi"
 var rollNumber = "45790"
-residence = "Jhansi"
+residence = "Noida"
 let studentState;
 
 // studentId = 2  not allowed
