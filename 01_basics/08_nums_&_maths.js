@@ -18,6 +18,7 @@ const hundreds = 1000000
 
 // Javascript Math Object:- The JavaScript Math object allows you to perform mathematical tasks on numbers.
 // The Math object is static
+// Built-in object that provides a collection of properties and methods
 
 
 // console.log(Math); // Object [Math] {}
@@ -31,6 +32,18 @@ const hundreds = 1000000
 // console.log(Math.max(12, 6, 8, 9)); // 12 [maximum number]
 // console.log(Math.sqrt(5)); // 2.23606797749979
 // console.log(Math.PI)       // returns PI
+
+
+
+let x = 3;
+let y = 2;
+let z = 7;
+
+// z = Math.pow(x, y);
+   z = Math.sin;
+   z = Math.cos;
+   z = Math.sign;
+console.log(z);
 
 
 console.log(Math.random()); // [returns a random decimal number between 0 (inclusive) and 1 (exclusive)]
