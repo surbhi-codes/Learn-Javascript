@@ -1,0 +1,22 @@
+body {
+    font-family: Verdana;
+    text-align: center;
+}
+
+#myBtn {
+    font-size: 3em;
+    padding: 5px 25px;
+    border-radius: 5px;
+    background-color: rgb(232, 165, 117);
+    color: black;
+    transition: background-color 0.25s;
+
+}
+
+#myBtn:hover{
+background-color: chocolate;
+}
+
+.myLabels {
+ font-size: 3em;
+}
