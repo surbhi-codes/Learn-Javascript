@@ -10,12 +10,12 @@ if ( temperature > 25 ){
 
 // if-else Statement- Executes one block of code if a condition is true, otherwise executes another block if the condition is false
 
-const age = 18
+// const age = 18
 
-if ( age >= 18) {
-    console.log("You are an adult"); 
+if (age >= 18) {
+   console.log("You're an adult");
 } else {
-    console.log("You are not an adult");
+   console.log("You're not an adult");
 }
 
 // console.log("Execute");
@@ -68,3 +68,21 @@ if ( score > 250 ) {
  if (loggedInFromGoogle || loggedInFromEmail){
     console.log("User logged in"); // User logged in
  }
+
+ let age = 18;
+ let hasLicense = true;
+
+ if (age >= 16) {
+   console.log("You're old enough to drive");
+
+    if(hasLincense) {
+      console.log("You have your license!");
+    } 
+    else {
+      console.log("You don't have your license yet!");
+    }
+}
+ else {
+   console.log("You must be 16+ to have a license");
+}
+
