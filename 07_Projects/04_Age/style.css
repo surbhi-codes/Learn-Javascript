@@ -1,0 +1,23 @@
+#mySubmit {
+    color: black;
+    background-color: rgb(176, 236, 238);
+    font-size: 1em;
+    padding: 5px 25px;
+    border-radius: 5px;
+    transition: background-color 0.25s;
+}
+
+#mySubmit:hover {
+  background-color: rgb(116, 184, 186);
+}
+
+label {
+    font-size: larger;
+ }
+ 
+
+ body {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(180, 118, 237);
+}
