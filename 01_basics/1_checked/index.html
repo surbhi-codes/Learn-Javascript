@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <input type="checkbox" id="checkBoxBtn" />
+    <label for="checkBoxBtn">Subscribe</label> <br />
+
+    <input type="radio" id="visaBtn" name="card" />
+    <!-- radio= Only one option can be selected at a time.
+    name="card" → Decides the group.
+    Radio buttons with the same name belong together.-->
+    <label for="visaBtn">Visa</label> <br />
+
+    <input type="radio" id="masterCardBtn" name="card" />
+    <label for="masterCardBtn">Master Card</label> <br />
+
+    <input type="radio" id="payPalBtn" name="card" />
+    <label for="payPalBtn">PayPal</label> <br />
+    <br />
+
+    <button type="submit" id="submitBtn">Submit</button>
+
+    <p id="subResult"></p>
+    <p id="payResult"></p>
+    <script src="index.js"></script>
+  </body>
+</html>
