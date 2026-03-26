@@ -2,21 +2,25 @@ const minNum = 1;
 const maxNum = 100;
 const answer = Math.floor(Math.random() * (maxNum - minNum + 1) + minNum)
 
+// Math.random() → gives random number (0 to 1)
+// Math.floor() → always rounds down to the nearest whole integer.
+
+
 let attempts = 0;  // counts tries
 let guess;        // user input
 let running = true;// controls the loop
 
 while(running){
-    guess = window.prompt(`Guess a number between ${minNum} - ${maxNum}`);
+    guess = window.prompt(`Guess a number between ${minNum} - ${maxNum}`); // prompt = display + input
     guess = Number(guess);
 
     if(isNaN(guess)){  // If not a number → show error
-        window.alert("Please enter a valid number");
+        window.alert("Please enter a valid number"); // alert = just display
     }
     else if(guess < minNum || guess > maxNum){   // If out of range → show error
         window.alert("Please enter a valid number");
     } 
-    else{
+    else{  // Hint Provider (Logic)
         attempts++;
         if(guess < answer){
             window.alert("TOO LOW! TRY AGAIN");
