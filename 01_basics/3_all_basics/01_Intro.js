@@ -21,7 +21,7 @@ console.log ("Hello World")
 
 # Javascript is a programming language used to make web pages interactive. It can control the behaviour of different elements on a website such as - animations, forms, dynamic content updates.
 # The programs in this language are called scripts
-# Javascript is a Synchronous [executes one command at a time] & single-threaded language.
+# Javascript is a Synchronous [executes one command at a time] & single-threaded language [one stack, one task at a time].
 # JavaScript is both an imperative [how to do something with detailed instructions] and declarative [what you want to achieve & let the language figure out the details] type of language.
 # It works alongside-
   HTML (Structures the Content)[Skeleton]
