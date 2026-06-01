@@ -22,17 +22,17 @@
 // Lexical Scope (Scope Chain)
 // JavaScript uses Lexical Scoping, which means the placement of the variable in the source code determines its scope.
 
-let  x = 3;
+let  x = 2 ;
 
 function2();
 
 function function1() {
-    let x = 1;
+    let x = 3;
     console.log(x);
 }
 
 function function2() {
-    let x = 2;
+    let x = 1;
     console.log(x);
 }
 
