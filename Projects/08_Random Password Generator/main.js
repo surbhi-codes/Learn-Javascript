@@ -28,7 +28,7 @@ for(let i = 0; i < length; i++){
  return password;
 }
 
-const passwordLength = 12;
+const passwordLength = 11;
 const includeLowercase = true;
 const includeUppercase = true;
 const includeNumbers = true;
